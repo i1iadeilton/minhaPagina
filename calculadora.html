@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" context="IE-Edge"/>
+    <meta name="viewport" content="width=device-width">
+    <title>DD_Calculator</title>
+    
+    <link href="calculadora.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <img src="saude.jpg" class="photo_saude"/>
+     </nav>
+    <header>
+      <h1>Calcule seu IMC</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+          <div>
+            <fieldset style="width: 50%;">  
+              <legend>Quanto você pesa?</legend>
+              <div>
+                <label>Peso em KG</label>
+                <input id="valor-peso" type="number" value="0"></input>
+              </div>
+            </fieldset>
+            <fieldset style="width: 50%;">
+              <legend>Qual a sua altura?</legend>
+              <div>
+                <label for="valor-altura">Altura em m</label>
+                <input id="valor-altura" type="number" value="0"/>
+              </div>
+            </fieldset >
+            <button onclick="calcularIMC()">Calcular</button>
+          </div>
+        </article>
+        <footer>
+          <h3>
+            <span id="resposta">IMC </span><small>/kg</small>
+            <p>Seu indece de massa corporea</p>
+          </h3>
+        </footer>
+      </section>
+      <a href="index.html">Index</a>
+    </main>
+    <footer>Programador: José Adeilton</footer>
+    <script src="calculadora.js"></script>
+  </body>
+</html>

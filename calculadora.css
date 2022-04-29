@@ -1,0 +1,11 @@
+body{
+  background: #eec8c8;
+  font-family: verdana;
+  max-width: 900px;
+  margin: auto;
+}
+
+.photo_saude{
+  border: 5px solid #6c39f9;
+  border-radius: 50%;
+}
